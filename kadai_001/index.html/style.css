@@ -1,0 +1,218 @@
+* {
+box-sizing: border-box;
+}
+body {
+    max-width: auto;
+    margin: 0 auto 0 auto;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#nav-pc {
+    font-size: 34px;    
+}
+#nav-pc ul {   
+    display: flex;
+    padding-top: 30px;
+    padding-left: 650px;
+    margin: 7px 700px;    
+}
+#nav-pc li {   
+    list-style: none;
+    font-weight: bold;
+}
+#nav-pc a {   
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    color: #000;
+}
+#nav-pc a:hover {
+    text-decoration: underline;
+}
+#main-visual > img {
+    position: relative;
+    width: 100%;
+    top: 30px 
+} 
+#main-message {
+    position:absolute;
+    top: 0; 
+    left: 215px;
+}
+#main-message > h1 {
+    font-size: 34px; 
+    border: solid 1px black;
+    margin: 35px 0 0 200px;   
+    padding: 0 17px 0 17px    
+}
+h2 {
+    margin: 150px 0 0 0;
+    text-align: center;
+    font-size: 34px;  
+}
+#about-flex img {
+    position: relative;
+    top: 0;
+    left: 600px;
+    width: 280px;
+    height: 280px;
+    border-radius: 200px;  
+}
+#about-message {
+    margin: 80px auto 80px auto;
+}
+h3 {
+    margin: -233px 0 0 1000px;
+    font-size: 24px; 
+}
+a {
+    font-size: 34px;  
+}
+ul {
+    margin: 0 0 0 700px;
+    padding: 10px  0 0 340px;
+    font-size: 18px; 
+}
+#Works-flex {
+    display: flex;
+    position: relative;
+    left: 630px;  
+    margin-top: 50px; 
+}    
+#Works1-left img {
+    width: 255px;  
+    padding-left: 15px;   
+}
+#Works2-center img {
+    width: 255px;  
+    padding-left: 15px;    
+}
+#Works3-right img {
+    width: 255px;  
+    padding-left: 15px;  
+}
+#Works-message > p {
+    margin-top: 10px;    
+}
+p {
+    width: 255px; 
+    padding-left: 15px; 
+    margin: 0 ;
+    font-size: 18px;
+}
+#copyright {
+    padding-top: 80px;
+    padding-left: 880px; 
+    text-align: center;     
+}
+#copyright > p {
+    width: 280px;
+}
+@media screen and (max-width: 767px) {
+#nav-pc {
+    display: none;
+}
+#nav-sp ul {   
+    display: flex;
+    padding-top: 30px;
+    padding-left:0px;
+    margin: 7px 240px;    
+}
+#nav-sp li {   
+    list-style: none;
+    font-weight: bold;
+}
+#nav-sp a {   
+    text-decoration: none;
+    padding: 0px;
+    margin: 0 auto 0 10px;
+    font-size: 20px; 
+    color: #000;
+}
+#main-message > h1 {
+    font-size: 28px; 
+    border: solid 1px black;
+    margin: 30px 50px 0 -180px;   
+    padding: 0 10px 0 10px    
+}
+#main-visual > img {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin: 0 0 0 0;
+}
+#about-flex img {
+    position: relative;
+    top: -40px;
+    left: 70px;
+    width: 280px;
+    height: 280px;
+    border-radius: 200px;  
+}
+h2 {
+    margin: -20px 0 0 0;    
+    font-size: 25px;
+}
+h3 {
+    margin: -50px 0 0 60px;
+    font-size: 23px; 
+}
+ul {
+    position: relative;
+    margin: 0 10px 0 10px;
+    padding: 10px  0 0 80px;
+    font-size: 18px; 
+    width: 380px;    
+}
+#Works-flex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40px;  
+    margin-top: 30px; 
+}    
+h2 {
+    margin: 60px 0 0 0;    
+    font-size: 25px;
+}
+#Works1-left img {
+    width: 400px;  
+    padding: 0 80px 0 0;
+}
+#Works2-center img {
+    width: 400px;  
+    padding: 0 80px 0 0;   
+}
+#Works3-right img {
+    width: 400px;  
+    padding: 0 80px 0 0; 
+}
+#Works-message  p {
+    margin-top: 20px;   
+    padding: 20px 0 0 -10px; 
+}
+p {
+    width: 340px; 
+    margin: 0 50px 0 0;
+    padding: 0 30px 20px 5px; 
+ 
+    text-align: center;   
+    font-size: 16px;
+} 
+#copyright {
+    padding-top: 80px;
+    padding-left: 70px; 
+    text-align: center;     
+}
+#copyright > p {
+    width: 280px;
+}
+}
+
+
